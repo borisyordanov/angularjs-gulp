@@ -1,0 +1,10 @@
+<header class="mm-contributors__header">
+  <h4 class="mm-contributors__title">{{$ctrl.repo.name}}</h4>
+  <mm-close-button on-button-click="$ctrl.onSidebarClose()"></mm-close-button>
+</header>
+<main>
+  <div class="mm-contributors__avatar" mm-background-image="{{$ctrl.repo.owner.avatar_url}}"></div>
+  <div class="mm-contributors__list-wrapper">
+    <div class="mm-contributors__avatar" ng-repeat="contr in $ctrl.contributors" mm-background-image="{{contr.avatar_url}}"></div>
+  </div>
+</main>

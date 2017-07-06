@@ -1,0 +1,40 @@
+{
+  "name": "angular-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/svetlin-stanchev/angular-training.git"
+  },
+  "keywords": [],
+  "author": "svetlin.stanchev@mentormate.com",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.6.4",
+    "angular-ui-router": "0.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-append": "^0.3.4",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-debug": "^3.1.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-series": "^1.0.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "http-server": "0.10.0",
+    "node-sass": "^4.5.3",
+    "run-sequence": "^1.2.2"
+  }
+}
