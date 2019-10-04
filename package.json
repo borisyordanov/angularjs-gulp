@@ -15,7 +15,7 @@
   "author": "svetlin.stanchev@mentormate.com",
   "license": "MIT",
   "dependencies": {
-    "angular": "1.6.4",
+    "angular": "1.6.5",
     "angular-ui-router": "0.4.2"
   },
   "devDependencies": {
